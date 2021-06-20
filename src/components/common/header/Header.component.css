@@ -1,0 +1,52 @@
+.nav_bar {
+  /* margin-top: -60px; */
+  overflow: hidden;
+  height: 50px;
+  background-color: skyblue;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.nav_list {
+  list-style-type: none;
+}
+
+.nav_item a {
+  color: black;
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+}
+
+/* .nav_item a:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+} */
+
+.nav_item a:hover {
+  color: whitesmoke;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav_item a:active {
+  font-weight: bold;
+}
+
+.selected {
+  background-color: blue;
+}
+
+.logout {
+  float: right;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.user-info {
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-weight: bold;
+}

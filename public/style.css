@@ -1,0 +1,42 @@
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.main-content {
+  margin-top: 80px;
+  margin: center;
+  width: -webkit-fill-available;
+}
+
+/* For sidebar main content */
+.main {
+  margin-top: 90px;
+  margin-left: 80px; /* Same as the width of the sidebar */
+  /* margin-right: 160px; */
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+
+.main-color {
+  /* background-image: linear-gradient(
+    to right,
+    rgb(161, 223, 242),
+    rgb(56, 119, 138),
+    rgb(6, 217, 224)
+  ); */
+  /* background-image: linear-gradient(to right, #fc00ff, #00dbde); */
+  background-image: linear-gradient(to right, #bff098, #6fd6ff);
+}
+
+/* cart-badge */
+.cart-badge {
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 15px;
+  color: black;
+  background: #bff098;
+}

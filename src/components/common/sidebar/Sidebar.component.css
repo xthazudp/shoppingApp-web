@@ -1,0 +1,52 @@
+.sidebar {
+  width: 150px;
+  height: 100%;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: skyblue;
+  position: sticky;
+  left: 60px;
+}
+
+.sidebar a {
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.selected {
+  background-color: blue;
+}
+
+/* The side navigation menu */
+/* .sidebar {
+  margin-left: 10px;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  margin-top: 60px;
+}
+
+/* Sidebar links */
+/* .sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+/* .sidebar a.active {
+  background-color: #04aa6d;
+  color: white;
+} */
+
+/* Links on mouse-over */
+/* .sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+} */
